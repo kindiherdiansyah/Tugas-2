@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<baksokuat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ordermakanan.xsd">
+	<order>
+		<kd_customer>001</kd_customer>
+		<nama_costumer>Kindi Herdiansyah</nama_costumer>
+		<nama_paket>Paket A</nama_paket>
+		<nama_pesanan>Bakso Exelent</nama_pesanan>
+		<harga>Rp.20.000</harga>
+		<jml>2</jml>
+		<total>40000</total>
+		<waktu_pesan>08.00</waktu_pesan>
+		<alamat_kirim>Jln. Sariasih No.2</alamat_kirim>
+		<telp>081232132244</telp>
+		<email>kindiherdiansyah@gmail.com</email>
+	</order>
+	<order>
+		<kd_customer>002</kd_customer>
+		<nama_costumer>Nida Regita</nama_costumer>
+		<nama_paket>Paket B</nama_paket>
+		<nama_pesanan>Bakso Johan </nama_pesanan>
+		<harga>Rp.18.000</harga>
+		<jml>2</jml>
+		<total>36000</total>
+		<waktu_pesan>09.00</waktu_pesan>
+		<alamat_kirim>Jln. Sariasih No.2</alamat_kirim>
+		<telp>081232903141</telp>
+		<email>nidaregita@gmail.com</email>
+	</order>
+	<order>
+		<kd_customer>003</kd_customer>
+		<nama_costumer>Ariyq Naufal</nama_costumer>
+		<nama_paket>Paket C</nama_paket>
+		<nama_pesanan>Bakso Friendly</nama_pesanan>
+		<harga>Rp.45.000</harga>
+		<jml>2</jml>
+		<total>90000</total>
+		<waktu_pesan>08.00</waktu_pesan>
+		<alamat_kirim>Jln. Sariasih No.7</alamat_kirim>
+		<telp>081232132522</telp>
+		<email>ariyqnaufal@gmail.com</email>
+	</order>
+	<order>
+		<kd_customer>004</kd_customer>
+		<nama_costumer>Della</nama_costumer>
+		<nama_paket>Paket D</nama_paket>
+		<nama_pesanan>Bakso First</nama_pesanan>
+		<harga>Rp.45.000</harga>
+		<jml>2</jml>
+		<total>90000</total>
+		<waktu_pesan>08.00</waktu_pesan>
+		<alamat_kirim>Jln. Sariasih No.7</alamat_kirim>
+		<telp>08123216265</telp>
+		<email>dellac@gmail.com</email>
+	</order>
+	<order>
+		<kd_customer>005</kd_customer>
+		<nama_costumer>M.Irvan</nama_costumer>
+		<nama_paket>Paket E</nama_paket>
+		<nama_pesanan>Bakso Kapten</nama_pesanan>
+		<harga>Rp.30.000</harga>
+		<jml>2</jml>
+		<total>60000</total>
+		<waktu_pesan>08.00</waktu_pesan>
+		<alamat_kirim>Jln. Sariasih No.7</alamat_kirim>
+		<telp>081232132423</telp>
+		<email>mirvan@gmail.com</email>
+	</order>
+</baksokuat>

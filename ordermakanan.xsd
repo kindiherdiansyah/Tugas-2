@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="baksokuat">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="order"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="order">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="kd_customer"/>
+                <xs:element ref="nama_costumer"/>
+                <xs:element ref="nama_paket"/>
+                <xs:element ref="nama_pesanan"/>
+                <xs:element ref="harga"/>
+                <xs:element ref="jml"/>
+                <xs:element ref="total"/>
+                <xs:element ref="waktu_pesan"/>
+                <xs:element ref="alamat_kirim"/>
+                <xs:element ref="telp"/>
+                <xs:element ref="email"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="kd_customer" type="xs:integer"/>
+    <xs:element name="nama_costumer" type="xs:string"/>
+    <xs:element name="nama_paket" type="xs:string"/>
+    <xs:element name="nama_pesanan" type="xs:string"/>
+    <xs:element name="harga" type="xs:NCName"/>
+    <xs:element name="jml" type="xs:integer"/>
+    <xs:element name="total" type="xs:integer"/>
+    <xs:element name="waktu_pesan" type="xs:decimal"/>
+    <xs:element name="alamat_kirim" type="xs:string"/>
+    <xs:element name="telp" type="xs:integer"/>
+    <xs:element name="email">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    			<xs:pattern value=".+@gmail.com"></xs:pattern>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+</xs:schema>
