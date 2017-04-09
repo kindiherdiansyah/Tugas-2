@@ -32,11 +32,13 @@ Analisis
 
 =>	Baris 1 <?xml version="1.0" encoding="UTF-8"?>
   = mendefinisikan bahwa dokumen ini dibuat dengan aturan XML versi 1.0. Encoding menunjukkan bahwa file XML 
-    ini ditulis dengan kode UTF-8. UTF-8 adalah kode-kode yang wajib didukung oleh semua aplikasi yang memproses dokumen XML.
+    ini ditulis dengan kode UTF-8. 
+    UTF-8 adalah kode-kode yang wajib didukung oleh semua aplikasi yang memproses dokumen XML.
+    
 =>  Baris 2 <baksokuat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ordermakanan.xsd">
   = mendefinisikan namespace, Namespace didefinisikan oleh attribute xmlns pada tag awal sebuah elemen.
   
-=>	Semua tag pembuka dan penetup dibawah namespace
+=>	Baris 3 :Semua tag pembuka dan penetup dibawah namespace
   = Merupakan element
  Elemen XML mempunyai aturan penamaan yaitu:
 -Nama dapat berisi huruf, angka, dan karakter lain.
