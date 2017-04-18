@@ -15,18 +15,18 @@ XML Schema mendefinisikan elemen, atribut, dan tipe data.
 Skema elemen berisi tipe-tipe definisi (simpleType dan complexType elemen) dan mendeklarasikan atribut dan elemen.
 
 Berikut Langkah-langkah untuk membuat file XML yang saya buat :
-  1. Klik File -> New -> Project -> Plug-in Project
-  2. Beri nama, Misal : Tugas2, lalu klik Next -> Finish
-  3. Kemudian pada package yang telah dibuat klik kanan, pilih New -> Other -> XML file -> klik Next
-     -> Beri nama: ordermakanan.xml -> Finish 
-  4. Setelah file XML dibuat, kemudian mengisi data pada file XML tsb.contohnya buka file yang saya upload :"ordermakanan.xml"
-  5. Setelah selesai, klik kanan pada ordermakanan.xml, lalu pilih Create XML Definition. Beri nama "ordermakanan.xsd". Klik Finish 
-  6. Kemudian membuat reference file xsd pada file xml, pada ordermakanan.xsd klik kanan-> pilih Generate ->XML File
-     -> beri nama ordermakanan.xml -> Next -> Finish. Lalu link reference tersebut di copy ke ordermakanan.xml
-  7. Setelah itu membuat patterns pada atribut email dengan ketentuan @gmail.com
-  8. Klik ordermakanan.xsd -> Pada Element email klik kanan ->Show Properties
-     -> Pada constraint pilih pattern ->add -> beri nama ".+@gmail.com"
-  9. Selanjutnya Validate, jika benar maka tidak akan muncul error
+[1]Klik File - New - Project - Plug-in Project
+[2]Beri nama, Misal : Tugas2, lalu klik Next - Finish
+[3]Kemudian pada package yang telah dibuat klik kanan, pilih New - Other - XML file - klik Next
+     - Beri nama: ordermakanan.xml -> Finish 
+[4]Setelah file XML dibuat, kemudian mengisi data pada file XML tsb.contohnya buka file yang saya upload :"ordermakanan.xml"
+[5]Setelah selesai, klik kanan pada ordermakanan.xml, lalu pilih Create XML Definition. Beri nama "ordermakanan.xsd". Klik Finish 
+[6]Kemudian membuat reference file xsd pada file xml, pada ordermakanan.xsd klik kanan- pilih Generate -XML File
+     - beri nama ordermakanan.xml - Next - Finish. Lalu link reference tersebut di copy ke ordermakanan.xml
+[7]Setelah itu membuat patterns pada atribut email dengan ketentuan @gmail.com
+[8]Klik ordermakanan.xsd - Pada Element email klik kanan -Show Properties
+     - Pada constraint pilih pattern -add - beri nama ".+@gmail.com"
+[9]Lalu Validate, jika benar maka tidak akan error
   
 Analisis
 
